@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Tech Corner（技术角落）",
   description: "程序员的技术角落",
+  base: "/tech-corner/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo-color.svg',
