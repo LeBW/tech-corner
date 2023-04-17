@@ -19,7 +19,7 @@ export default defineConfig({
         {
           text:'计算机网络',
           items: [
-            { link: '/knowledge/https' }
+            { text: "万字长文，带你彻底搞懂HTTPS", link: '/knowledge/https' }
           ]
         }
       ]

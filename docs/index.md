@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 知识精讲
-      link: /markdown-examples
+      link: /knowledge
     - theme: alt
       text: API Examples
       link: /api-examples
