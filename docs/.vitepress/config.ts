@@ -10,7 +10,7 @@ export default defineConfig({
     logo: '/logo-color.svg',
 
     nav: [
-      { text: '知识精讲', link: '/knowledge' },
+      { text: '知识精讲', link: '/knowledge/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
