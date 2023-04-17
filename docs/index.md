@@ -5,10 +5,10 @@ layout: home
 hero:
   name: "Tech Corner"
   text: ""
-  tagline: 程序员的技术角落
+  tagline: 程序员的技术角落，整理一切后端程序员所需知识。
   actions:
     - theme: brand
-      text: 开始阅读
+      text: 知识精讲
       link: /markdown-examples
     - theme: alt
       text: API Examples

@@ -10,22 +10,23 @@ export default defineConfig({
     logo: '/logo-color.svg',
 
     nav: [
-      { text: 'Home', link: '/' },
+      { text: '知识精讲', link: '/knowledge' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/knowledge/': [
+        {
+          text:'计算机网络',
+          items: [
+            { link: '/knowledge/https' }
+          ]
+        }
+      ]
+    },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/lebw/tech-corner' }
     ]
   }
 })
